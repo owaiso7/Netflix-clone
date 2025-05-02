@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .navbar nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .banner {
+    background-image: url("breaking bad banner.jpeg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+  }
+  
+  .banner .content {
+    max-width: 500px;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .banner button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .row {
+    padding: 20px;
+  }
+  
+  .row h2 {
+    margin-bottom: 10px;
+  }
+  
+  .row-posters {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+  }
+  
+  .poster {
+    max-height: 150px;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .poster:hover {
+    transform: scale(1.1);
+  }
+  
